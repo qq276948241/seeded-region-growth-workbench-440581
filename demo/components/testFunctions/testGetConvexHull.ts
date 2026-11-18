@@ -1,0 +1,34 @@
+import type { Image } from '../../image_js.ts';
+import { fromMask } from '../../image_js.ts';
+
+/**
+ * Draw the convex Hull polygon of the largest ROI in green and display the filled ROI in purple.
+ * @param image - Input image.
+ * @returns The image with the convex Hull.
+ */
+export function testGetConvexHull(image: Image): Image {
+  const grey = image.convertColor('GREY');
+  const mask = grey.threshold({ threshold: 35 / 255 });
+  const roiMapManager = fromMask(mask);
+
+  const rois = roiMapManager.getRois({ kind: 'black' });
+  rois.sort((a, b) => b.surface - a.surface);
+  const roi = rois[0];
+  if (roi) {
+    const roiMask = roi.getMask();
+    const convexHull = roiMask.getConvexHull();
+
+    let result = image.paintMask(roiMask, {
+      origin: roi.origin,
+      color: [0, 0, 255, 255],
+    });
+
+    result = result.drawPolygon(convexHull.points, {
+      origin: roi.origin,
+      strokeColor: [0, 255, 0, 255],
+    });
+    return result;
+  } else {
+    return image;
+  }
+}

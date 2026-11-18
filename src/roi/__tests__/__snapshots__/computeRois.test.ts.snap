@@ -1,0 +1,458 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`3x3 mask 1`] = `
+[
+  {
+    "centroid": {
+      "column": 0.75,
+      "row": 0.25,
+    },
+    "convexHull": {
+      "perimeter": 9.23606797749979,
+      "points": [
+        {
+          "column": 0,
+          "row": 0,
+        },
+        {
+          "column": 0,
+          "row": 2,
+        },
+        {
+          "column": 1,
+          "row": 2,
+        },
+        {
+          "column": 3,
+          "row": 1,
+        },
+        {
+          "column": 3,
+          "row": 0,
+        },
+      ],
+      "surface": 5,
+    },
+    "eqpc": 2.256758334191025,
+    "feret": {
+      "aspectRatio": 0.554700196225229,
+      "maxDiameter": {
+        "angle": -33.6900675259798,
+        "calliperLines": [
+          [
+            {
+              "column": -0.9230769230769232,
+              "row": 0.6153846153846156,
+            },
+            {
+              "column": 0.4615384615384618,
+              "row": 2.6923076923076925,
+            },
+          ],
+          [
+            {
+              "column": 2.0769230769230766,
+              "row": -1.3846153846153848,
+            },
+            {
+              "column": 3.4615384615384617,
+              "row": 0.6923076923076923,
+            },
+          ],
+        ],
+        "length": 3.605551275463989,
+        "points": [
+          {
+            "column": 0,
+            "row": 2,
+          },
+          {
+            "column": 3,
+            "row": 0,
+          },
+        ],
+      },
+      "minDiameter": {
+        "angle": 180,
+        "calliperLines": [
+          [
+            {
+              "column": 3,
+              "row": 0,
+            },
+            {
+              "column": -2.449293598294706e-16,
+              "row": 3.67394039744206e-16,
+            },
+          ],
+          [
+            {
+              "column": 3.0000000000000004,
+              "row": 1.9999999999999996,
+            },
+            {
+              "column": 0,
+              "row": 2,
+            },
+          ],
+        ],
+        "length": 1.9999999999999996,
+        "points": [
+          {
+            "column": 3,
+            "row": 0,
+          },
+          {
+            "column": 0,
+            "row": 2,
+          },
+        ],
+      },
+    },
+    "fillRatio": 1,
+    "filledSurface": 4,
+    "height": 2,
+    "id": 1,
+    "mbr": {
+      "angle": -0,
+      "aspectRatio": 0.6666666666666667,
+      "height": 2,
+      "perimeter": 10,
+      "points": [
+        {
+          "column": 3,
+          "row": -3.834758505292834e-17,
+        },
+        {
+          "column": 3,
+          "row": 2,
+        },
+        {
+          "column": 3.2162452993532727e-16,
+          "row": 2,
+        },
+        {
+          "column": 4.440892098500626e-16,
+          "row": -2.2204460492503128e-16,
+        },
+      ],
+      "surface": 5.999999999999999,
+      "width": 2.9999999999999996,
+    },
+    "origin": {
+      "column": 0,
+      "row": 0,
+    },
+    "ped": 2.0643291761037372,
+    "perimeter": 6.485281374238571,
+    "roundness": 0.39176601376466547,
+    "solidity": 0.8,
+    "sphericity": 1.0932163146821783,
+    "surface": 4,
+    "width": 3,
+  },
+  {
+    "centroid": {
+      "column": 2,
+      "row": 2,
+    },
+    "convexHull": {
+      "perimeter": 4,
+      "points": [
+        {
+          "column": 0,
+          "row": 0,
+        },
+        {
+          "column": 0,
+          "row": 1,
+        },
+        {
+          "column": 1,
+          "row": 1,
+        },
+        {
+          "column": 1,
+          "row": 0,
+        },
+      ],
+      "surface": 1,
+    },
+    "eqpc": 1.1283791670955126,
+    "feret": {
+      "aspectRatio": 0.7071067811865475,
+      "maxDiameter": {
+        "angle": 45.00000000000001,
+        "calliperLines": [
+          [
+            {
+              "column": 0.5000000000000001,
+              "row": -0.5,
+            },
+            {
+              "column": -0.5,
+              "row": 0.4999999999999999,
+            },
+          ],
+          [
+            {
+              "column": 1.5,
+              "row": 0.5,
+            },
+            {
+              "column": 0.4999999999999998,
+              "row": 1.5,
+            },
+          ],
+        ],
+        "length": 1.4142135623730951,
+        "points": [
+          {
+            "column": 0,
+            "row": 0,
+          },
+          {
+            "column": 1,
+            "row": 1,
+          },
+        ],
+      },
+      "minDiameter": {
+        "angle": 90,
+        "calliperLines": [
+          [
+            {
+              "column": 0,
+              "row": 0,
+            },
+            {
+              "column": 6.123233995736766e-17,
+              "row": 1,
+            },
+          ],
+          [
+            {
+              "column": 1,
+              "row": -6.123233995736766e-17,
+            },
+            {
+              "column": 1,
+              "row": 0.9999999999999999,
+            },
+          ],
+        ],
+        "length": 1,
+        "points": [
+          {
+            "column": 0,
+            "row": 0,
+          },
+          {
+            "column": 1,
+            "row": 0,
+          },
+        ],
+      },
+    },
+    "fillRatio": 1,
+    "filledSurface": 1,
+    "height": 1,
+    "id": 2,
+    "mbr": {
+      "angle": 0,
+      "aspectRatio": 1,
+      "height": 1,
+      "perimeter": 4,
+      "points": [
+        {
+          "column": 6.123233995736766e-17,
+          "row": 1,
+        },
+        {
+          "column": 0,
+          "row": 0,
+        },
+        {
+          "column": 1,
+          "row": -6.123233995736766e-17,
+        },
+        {
+          "column": 1,
+          "row": 0.9999999999999999,
+        },
+      ],
+      "surface": 1,
+      "width": 1,
+    },
+    "origin": {
+      "column": 2,
+      "row": 2,
+    },
+    "ped": 0.4501581580785531,
+    "perimeter": 1.4142135623730951,
+    "roundness": 0.6366197723675812,
+    "solidity": 1,
+    "sphericity": 2.5066282746310002,
+    "surface": 1,
+    "width": 1,
+  },
+]
+`;
+
+exports[`3x3 mask 2`] = `
+[
+  {
+    "centroid": {
+      "column": 1,
+      "row": 1.5,
+    },
+    "convexHull": {
+      "perimeter": 8.82842712474619,
+      "points": [
+        {
+          "column": 0,
+          "row": 1,
+        },
+        {
+          "column": 0,
+          "row": 2,
+        },
+        {
+          "column": 2,
+          "row": 2,
+        },
+        {
+          "column": 3,
+          "row": 1,
+        },
+        {
+          "column": 3,
+          "row": 0,
+        },
+        {
+          "column": 1,
+          "row": 0,
+        },
+      ],
+      "surface": 5,
+    },
+    "eqpc": 2.256758334191025,
+    "feret": {
+      "aspectRatio": 0.5547001962252291,
+      "maxDiameter": {
+        "angle": -33.6900675259798,
+        "calliperLines": [
+          [
+            {
+              "column": -0.6153846153846154,
+              "row": 1.0769230769230773,
+            },
+            {
+              "column": 0.6153846153846158,
+              "row": 2.9230769230769234,
+            },
+          ],
+          [
+            {
+              "column": 2.3846153846153846,
+              "row": -0.9230769230769231,
+            },
+            {
+              "column": 3.615384615384616,
+              "row": 0.9230769230769231,
+            },
+          ],
+        ],
+        "length": 3.605551275463989,
+        "points": [
+          {
+            "column": 0,
+            "row": 2,
+          },
+          {
+            "column": 3,
+            "row": 0,
+          },
+        ],
+      },
+      "minDiameter": {
+        "angle": 0,
+        "calliperLines": [
+          [
+            {
+              "column": 0,
+              "row": 2,
+            },
+            {
+              "column": 3,
+              "row": 2,
+            },
+          ],
+          [
+            {
+              "column": 0,
+              "row": 0,
+            },
+            {
+              "column": 3,
+              "row": 0,
+            },
+          ],
+        ],
+        "length": 2,
+        "points": [
+          {
+            "column": 0,
+            "row": 2,
+          },
+          {
+            "column": 3,
+            "row": 0,
+          },
+        ],
+      },
+    },
+    "fillRatio": 1,
+    "filledSurface": 4,
+    "height": 2,
+    "id": -1,
+    "mbr": {
+      "angle": -0,
+      "aspectRatio": 0.6666666666666667,
+      "height": 2,
+      "perimeter": 10,
+      "points": [
+        {
+          "column": 3,
+          "row": -3.834758505292834e-17,
+        },
+        {
+          "column": 3,
+          "row": 2,
+        },
+        {
+          "column": 3.2162452993532727e-16,
+          "row": 2,
+        },
+        {
+          "column": 4.440892098500626e-16,
+          "row": -2.2204460492503128e-16,
+        },
+      ],
+      "surface": 5.999999999999999,
+      "width": 2.9999999999999996,
+    },
+    "origin": {
+      "column": 0,
+      "row": 1,
+    },
+    "ped": 1.8006326323142123,
+    "perimeter": 5.656854249492381,
+    "roundness": 0.39176601376466547,
+    "solidity": 0.8,
+    "sphericity": 1.2533141373155001,
+    "surface": 4,
+    "width": 3,
+  },
+]
+`;

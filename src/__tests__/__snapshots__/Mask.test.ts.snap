@@ -1,0 +1,18 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`check custom inspect 1`] = `
+"Mask {
+  width: 1
+  height: 2
+  data: [0]
+        [0]
+}"
+`;
+
+exports[`check custom inspect with image too large 1`] = `
+"Mask {
+  width: 25
+  height: 25
+  data: [...]
+}"
+`;

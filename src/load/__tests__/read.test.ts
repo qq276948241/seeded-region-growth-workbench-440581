@@ -1,0 +1,15 @@
+import { expect, test } from 'vitest';
+
+import { Image } from '../../Image.ts';
+import { read } from '../read.ts';
+
+test('read existing image', async () => {
+  const img = await read(testUtils.getPath('formats/rgba32.png'));
+
+  expect(img).toBeInstanceOf(Image);
+  expect(img).toMatchObject({
+    width: 30,
+    height: 90,
+    colorModel: 'RGBA',
+  });
+});

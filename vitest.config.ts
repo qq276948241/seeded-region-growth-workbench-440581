@@ -1,0 +1,20 @@
+import { defineConfig } from 'vitest/config';
+
+export default defineConfig({
+  test: {
+    experimental: {
+      viteModuleRunner: false,
+      nodeLoader: false,
+    },
+    setupFiles: ['./vitest.setup.ts'],
+    testTimeout: 10_000,
+    coverage: {
+      include: ['src/**/*.ts'],
+      exclude: ['src/**/*.benchmark.ts', 'src/**/*.bench.ts'],
+    },
+    reporters: [
+      'default',
+      'jest-image-snapshot/src/outdated-snapshot-reporter.js',
+    ],
+  },
+});

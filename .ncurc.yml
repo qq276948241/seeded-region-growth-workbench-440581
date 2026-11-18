@@ -1,0 +1,3 @@
+reject:
+  # Package is now asynchronous
+  - 'image-type'

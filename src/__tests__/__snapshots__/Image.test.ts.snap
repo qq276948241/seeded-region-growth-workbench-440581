@@ -1,0 +1,44 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`check custom inspect with image too large 1`] = `
+"Image {
+  width: 25
+  height: 25
+  bitDepth: 8
+  colorModel: GREYA
+  channels: 2
+  data: [...]
+}"
+`;
+
+exports[`check custom inspect, GREYA image 1`] = `
+"Image {
+  width: 2
+  height: 2
+  bitDepth: 8
+  colorModel: GREYA
+  channels: 2
+  data: {
+    [
+     [  0 255   0 255]
+     [  0 255   0 255]
+    ]
+  }
+}"
+`;
+
+exports[`check custom inspect, RGB image 1`] = `
+"Image {
+  width: 1
+  height: 2
+  bitDepth: 8
+  colorModel: RGB
+  channels: 3
+  data: {
+    [
+     [  0   0   0]
+     [  0   0   0]
+    ]
+  }
+}"
+`;
